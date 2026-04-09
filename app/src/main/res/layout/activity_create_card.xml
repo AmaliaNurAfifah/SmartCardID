@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0E0F14"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nama -->
+        <EditText
+            android:id="@+id/etName"
+            android:autofillHints=""
+            android:hint="@string/namee_buat"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Telepon -->
+        <EditText
+            android:id="@+id/etPhone"
+            android:autofillHints=""
+            android:hint="@string/phone_buat"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:autofillHints=""
+            android:hint="@string/email_buat"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:inputType="textEmailAddress"
+            android:minHeight="50dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Tombol Tulis NFC -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnWrite"
+            android:text="@string/write_to_NFC_btn"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#1C1E27"
+            app:cornerRadius="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

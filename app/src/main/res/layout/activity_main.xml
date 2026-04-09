@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#0E0F14"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title -->
+    <TextView
+        android:text="@string/smartcardid_id"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Create Digital Card -->
+    <Button
+        android:id="@+id/btnCreate"
+        android:text="@string/create_digital_card_bt"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1C1E27"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <!-- Scan NFC -->
+    <Button
+        android:id="@+id/btnScan"
+        android:text="@string/scan_nfc_card_bt"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2A2D3A"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
